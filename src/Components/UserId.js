@@ -31,7 +31,7 @@ class UserId extends React.Component {
   }
 
   render() {
-    const { isLoading, placesId, error } = this.state;
+    const { isLoading, placesId } = this.state;
     return (
       <div>
         <React.Fragment>

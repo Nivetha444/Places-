@@ -47,9 +47,7 @@ class App extends React.Component {
   }
 
   render() {
-    {
-      /* when the isLoading is false, it returns the ID and places, else it shows loading */
-    }
+    // /* when the isLoading is false, it returns the ID and places, else it shows loading */
     const { isLoading } = this.state;
     return (
       <div>
