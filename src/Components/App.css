@@ -1,0 +1,30 @@
+  /* This css is used in App.js for the table design */
+#places{
+ text-align: center;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  border: 3px solid #ddd;
+  width: 100%;
+}
+#places td, #places th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+#places th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #4CAF50;
+    color: white;
+  }
+
+  /* This css is used in UserId.js for the Cover Image Design */
+  img{
+    float: left;
+    border: 1px solid #ddd; 
+    border-radius: 4px; 
+    padding: 5px;
+    width: 500px;
+    height: 350px;
+    margin-right: 20px;
+  }
